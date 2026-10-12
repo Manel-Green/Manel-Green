@@ -10,6 +10,8 @@ I'm passionate about turning data into something that creates real value — bus
 
 **[ECG Normal/Abnormal Classifier](https://github.com/Manel-Green/ECG_Classifier)** — a ResNet18 fine-tuned in two stages (frozen backbone, then partial unfreezing) on 1,682 photographed 12-lead ECGs, reaching 85.5% accuracy/sensitivity/specificity. Full training notebook included, plus a working upload-and-test demo.
 
+**[RAG Cardiology Assistant](https://github.com/Manel-Green/RAG_Cardiology_Assistant)** — a retrieval-augmented Q&A agent over real cardiology research papers and guidelines, built so every answer traces back to the exact source passage it came from. Document AI OCR → semantic chunking → Vertex AI Vector Search → streaming Gemini generation, with a deterministic code-level gate that refuses to answer when nothing in the corpus is actually relevant, rather than leaving that judgment to the model. React frontend, full CI/CD via Cloud Build.
+
 ## Connect
 
 Open to Machine Learning Engineer opportunities — happy to connect on [LinkedIn](https://www.linkedin.com/in/manel-rahmouni-0402a4201/).
